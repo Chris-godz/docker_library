@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -Eeuo pipefail
+set -Eeuox pipefail
 
 # copy all the Debian build jobs into "force deb build" jobs which build like architectures upstream doesn't publish for will
 jq \
